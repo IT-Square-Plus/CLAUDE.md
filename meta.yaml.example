@@ -1,0 +1,43 @@
+# Your internat project codename. It doesn't have to be the final product name.
+# For example Windows XP had codename Longhorn during development at Microsoft.
+codename: Nickname for the project
+# User working on this project.
+# Very useful when you want to pass the name to AI models or into pipeline.
+user: John Smith
+description: |
+  Short description of the project. Max 1-2 sentences.
+  Multi-line descriptions are supported.
+# Team or organization maintaining this project.
+# Examples: Personal, Infrastructure Team, OpenSource, DevOps Team
+team: Personal|MyTeam|OpenSource
+# Runtime environments or platforms required to run the project.
+# Useful for pipeline configuration and deployment.
+runtime:
+  - python3.14
+  - node22
+  - docker
+# Related projects that share context or dependencies.
+# Useful for understanding the ecosystem and impact analysis.
+related_projects:
+  - Alpha
+  - Beta
+  - Enigma
+# Source code repository URL.
+# Central reference point for the codebase.
+repository: https://github.com/user/project_name
+# Project documentation URL.
+# Can be Confluence, ReadTheDocs, GitBook, or any other docs platform.
+documentation: https://docs.project_name.com
+# Additional context for AI models working with this project.
+# Include high-level architecture, integration points, and usage patterns.
+# This helps AI understand the project without reading all the codebase.
+ai_context: |
+  This project is a part of a bigger Alpha System.
+  It integrates with Beta using REST APIs.
+  Used mostly for data analysis and reporting.
+# Flexible tags for categorization and filtering.
+# Can be used by tools, dashboards, or search systems.
+tags:
+  - claude
+  - claudecode
+  - instruction

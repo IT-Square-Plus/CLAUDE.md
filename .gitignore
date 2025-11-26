@@ -1,0 +1,8 @@
+# Project metadata (use meta.yaml.example as template).
+meta.yaml
+
+# Local oroject MCP Servers config.
+.mcp.json
+
+# Ignore local Claude Code configuration files.
+.claude/
